@@ -1,0 +1,14 @@
+{
+  "name": "astro-node-eaddrinuse-repro",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@11.28.4",
+  "scripts": {
+    "build": "astro build",
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@astrojs/node": "11.1.6",
+    "astro": "7.3.5"
+  }
+}
